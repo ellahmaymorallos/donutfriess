@@ -42,12 +42,38 @@
 
 <!-- hyperlink with icons (search,cart, profile, menu button)-->
 <div class ="icons">
-    <a href="cart.html"><div class = "fas fa-shopping-cart" id="cart-btn"></div></a>
+    <div class="cart-container" onmouseover="showCartForm()" onmouseout="hideCartForm()">
+
+    <a href="4 checkout.html"> 
+<div class ="fas fa-shopping-cart" id ="cartButton"></div>
+</a>
+
+<div class="cart-form" id="cartForm">
+<form>
+<div id="cartItems"></div>
+<div id="total-price">Total Price: P<span id="totalPrice">0.00
+</span></div>
+</form>
+</div>
+
+
+</div>
 </div>
 <!-- hyperlink with icons (search, cart, profile, menu button)-->
 </header>
 <!-- header end -->
 
+
+
+
+<!-- page content-->
+<div class="content">
+<section class="about">
+<div class="about-image">
+<img src= "Banners/coverphoto1.png">
+</div>
+<div class="about-content">
+<div class="heading">
 <div class="heading">
 <h1>Chugbabbies</h1>
     
